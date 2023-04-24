@@ -9,8 +9,8 @@ set.seed(7)
 library(survival)
 data(CoxExample)
 x <- CoxExample$x
-y <- CoxExample$y
-
+#y <- CoxExample$y
+y1 <- CoxExample$y
 
 head(x,3)
 
